@@ -13,4 +13,15 @@
  *= require_tree .
  *= require_self
  */
- 
+
+ @import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+.color {
+    color: green;
+}
+
+.userbtn{
+    width: 100%;
+}

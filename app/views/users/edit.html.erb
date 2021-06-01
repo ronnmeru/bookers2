@@ -10,13 +10,13 @@
     </ul>
   </div>
 <% end %>
-  <h4>Name</h4>
+  <a>Name</a>
   <%= f.text_field :name %>
-  <h4>Image</h4>
+  <p>Image</p>
    <%= f.attachment_field :profile_image %>
-  <h4>Introduction</h4>
+  <p>Introduction</p>
   <%= f.text_area :introduction %>
 <div class="visual">
-<%= f.submit 'Update User' %>
+<%= f.submit 'Update User',class:"btn btn-secondary"%>
 </div>
 <% end %>
